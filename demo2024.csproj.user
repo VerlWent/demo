@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Windows\AddRequestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Authorizaction.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\EditRequest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\EditRequestIspol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\InformationRequest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\OutViewInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\OutViewInfoIspolnitel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Windows\AddRequestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Authorizaction.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\EditRequest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\EditRequestIspol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\InformationRequest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\OutViewInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\OutViewInfoIspolnitel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
